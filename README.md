@@ -13,4 +13,5 @@ A ordem de resolução está no meu [Notion: LeetCodeando](https://www.notion.so
 | Status | Dia | Categoria | Problema | Solução |
 | :---: | :---: | :--- | :--- | :--- |
 | ✅ | 001 | Arrays & Hashing | [Contains Duplicate](https://neetcode.io/problems/duplicate-integer/question?list=neetcode150) | [Código](./src/main/java/dev/davidcaetanor/daily_leetcode_java/arrays_hashing/ContainsDuplicate.java) |
-| 🔲 | 002 | Arrays & Hashing | [Valid Anagram](https://neetcode.io/problems/is-anagram/question?list=neetcode150) | [Código](Link) |
+| ✅ | 002 | Arrays & Hashing | [Valid Anagram](https://neetcode.io/problems/is-anagram/question?list=neetcode150) | [Código](./src/main/java/dev/davidcaetanor/daily_leetcode_java/arrays_hashing/ValidAnagram.java) |
+| 🔲 | 003 | Arrays & Hashing | [Two Sum](https://neetcode.io/problems/two-integer-sum/question?list=neetcode150) | [Código](./src/main/java/dev/davidcaetanor/daily_leetcode_java/arrays_hashing/) |
