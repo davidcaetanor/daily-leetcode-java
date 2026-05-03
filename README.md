@@ -14,4 +14,5 @@ A ordem de resolução está no meu [Notion: LeetCodeando](https://www.notion.so
 | :---: | :---: | :--- | :--- | :--- |
 | ✅ | 001 | Arrays & Hashing | [Contains Duplicate](https://neetcode.io/problems/duplicate-integer/question?list=neetcode150) | [Código](./src/main/java/dev/davidcaetanor/daily_leetcode_java/arrays_hashing/ContainsDuplicate.java) |
 | ✅ | 002 | Arrays & Hashing | [Valid Anagram](https://neetcode.io/problems/is-anagram/question?list=neetcode150) | [Código](./src/main/java/dev/davidcaetanor/daily_leetcode_java/arrays_hashing/ValidAnagram.java) |
-| 🔲 | 003 | Arrays & Hashing | [Two Sum](https://neetcode.io/problems/two-integer-sum/question?list=neetcode150) | [Código](./src/main/java/dev/davidcaetanor/daily_leetcode_java/arrays_hashing/) |
+| ✅ | 003 | Arrays & Hashing | [Two Sum](https://neetcode.io/problems/two-integer-sum/question?list=neetcode150) | [Código](./src/main/java/dev/davidcaetanor/daily_leetcode_java/arrays_hashing/TwoSum.java) |
+| 🔲 | 004 | Two Pointers | [Valid Palindrome](https://neetcode.io/problems/two-integer-sum/question?list=neetcode150) | [Código](./src/main/java/dev/davidcaetanor/daily_leetcode_java/) |
