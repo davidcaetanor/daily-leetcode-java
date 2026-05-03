@@ -6,7 +6,7 @@ import java.util.HashMap;
 Link: https://neetcode.io/problems/duplicate-integer/question?list=neetcode150
  */
 public class ContainsDuplicate {
-    public boolean hasDuplicate(int[] nums) {
+    public boolean execute(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
             if (map.containsKey(num)) {

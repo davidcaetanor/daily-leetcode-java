@@ -6,7 +6,7 @@ import java.util.Map;
 Link: https://neetcode.io/problems/two-integer-sum/question?list=neetcode150
  */
 public class TwoSum {
-    public int[] getIndices(int[] nums, int target) {
+    public int[] execute(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
 
         int lenArray = nums.length;

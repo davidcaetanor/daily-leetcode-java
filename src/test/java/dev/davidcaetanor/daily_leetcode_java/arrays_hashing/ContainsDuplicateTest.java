@@ -1,28 +1,31 @@
 package dev.davidcaetanor.daily_leetcode_java.arrays_hashing;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ContainsDuplicateTest {
-    ContainsDuplicate solution = new ContainsDuplicate();
+    private ContainsDuplicate solution;
 
-
-    @Test
-    public void testArrayWithDuplicate(){
-        int[] nums = {1,2,3,3};
-
-        //Espera retorno 'true', indicando que há duplicata
-        assertTrue(solution.hasDuplicate(nums));
+    @BeforeEach
+    public void setUp() {
+        solution = new ContainsDuplicate();
     }
 
     @Test
-    public void testArrayWithoutDuplicate(){
-        int[] nums = {1,2,3,4};
+    public void testArrayWithDuplicate() {
+        int[] nums = {1, 2, 3, 3};
 
-        //Espera retorno 'false', indicando que não há duplicata
-        assertFalse(solution.hasDuplicate(nums));
+        assertTrue(solution.execute(nums));
     }
-    
+
+    @Test
+    public void testArrayWithoutDuplicate() {
+        int[] nums = {1, 2, 3, 4};
+
+        assertFalse(solution.execute(nums));
+    }
+
 }

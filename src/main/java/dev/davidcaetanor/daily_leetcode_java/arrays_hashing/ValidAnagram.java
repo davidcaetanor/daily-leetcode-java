@@ -3,7 +3,7 @@ package dev.davidcaetanor.daily_leetcode_java.arrays_hashing;
 import java.util.Arrays;
 
 public class ValidAnagram {
-    public boolean isAnagram(String s, String t) {
+    public boolean execute(String s, String t) {
 
         if (s.length() != t.length()) {
             return false;
